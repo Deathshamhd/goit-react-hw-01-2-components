@@ -13,9 +13,12 @@ import transactionsData from './data/transactions.json'; // Importing transactio
 
 // style import
 
+import './App.css';
+
+
 const App = () => {
   return (
-    <div>
+    <div className="div-center">
       {/* Rendering the 'Profile' component and passing the 'profileData' as a prop. */}
       <Profile data={profileData} />
       {/* Rendering the 'FriendList' component and passing the 'friendsData' as a prop. */}
