@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import data from './data.json';
+import data from '../data/data.json';
 import {
   StatisticsSection,
   StatisticsTitle,
@@ -8,7 +8,7 @@ import {
   StatisticsList,
   LabelPercentage,
   LabelFormat,
-} from './Statistics.styled'
+} from './Statistics.styled';
 
 const StatisticsItem = ({ title, stats }) => {
   return (
@@ -16,7 +16,6 @@ const StatisticsItem = ({ title, stats }) => {
       <LabelFormat>{title}</LabelFormat>
       <LabelPercentage>{stats}%</LabelPercentage>
     </StatisticsData>
-
   );
 };
 

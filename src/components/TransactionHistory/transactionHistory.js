@@ -1,13 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import transactions from './transactions.json';
-import {
-    TableSection,
-    TransactionTable,
-    HeaderElement,
-    TransactionData,
-    TransactionDataTwo,
-} from './TransactionHistory.styled'
 
 const TransactionHistory = ({ 
     

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Profile from './Profile/Profile.jsx'; // Importing the 'Profile' component.
-import FriendList from './FriendList/FriendList.jsx'; // Importing the 'FriendList' component.
-import Statistics from 'components/Statistics/Statistics.jsx'; // Importing the 'Statistics' component .
+import FriendList from './FriendList/friends.js'; // Importing the 'FriendList' component.
+import Statistics from 'components/Statistics/statistics.js'; // Importing the 'Statistics' component .
 import Transactions from './TransactionHistory/Transactions.jsx'; // Importing the 'Transactions' component
 
 // DATA IMPORT
@@ -14,7 +14,7 @@ import transactionsData from './data/transactions.json'; // Importing transactio
 // style import
 
 import './App.css';
-import Statistics from './Statistics/Statistics.styled.js';
+
 
 
 const App = () => {
