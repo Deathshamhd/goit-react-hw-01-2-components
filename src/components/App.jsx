@@ -14,6 +14,7 @@ import transactionsData from './data/transactions.json'; // Importing transactio
 // style import
 
 import './App.css';
+import Statistics from './Statistics/Statistics.styled.js';
 
 
 const App = () => {
